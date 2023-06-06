@@ -6,11 +6,9 @@
   background-color: #112e3e;
   justify-content: space-between;
 }
-
 .navbar {
   padding: 0;
 }
-
 .navbar-collapse {
   flex-grow: 0;
   margin-right: 15%;
@@ -23,13 +21,98 @@
 .nav-item:not(:last-child) {
   border-right: 1px solid rgb(255, 255, 255);
 }
-
-@media (max-width: 992px) {
-  .navbar-margin {
-    margin: 100px;
+#myimg {
+  margin-left: 10%;
+  margin-top: 2%;
+  margin-bottom: 20px;
+}
+.carousel-item p {
+  position: absolute;
+  top: 35%;
+  left: 10%;
+  text-transform: uppercase;
+  font-family: "Lato";
+  font-size: 37px;
+  font-weight: 500;
+  letter-spacing: 4px;
+  color: white;
+}
+.carousel-item {
+  position: relative;
+}
+.gold {
+  color: gold;
+}
+.container {
+  text-align: center;
+  margin-top: 30px;
+}
+.container-margin {
+  margin-top: 70px;
+}
+.container h1,
+.container h2 {
+  text-transform: uppercase;
+}
+.container h2 {
+  font-size: 25px;
+}
+.card {
+  border: none;
+}
+.card img {
+  width: 30%;
+  margin: 0 auto;
+}
+.card-body h3 {
+  text-transform: uppercase;
+  font-size: 100%;
+}
+.col img {
+  width: 100%;
+}
+.col h4,
+.col h5 {
+  font-size: 100%;
+}
+.margin-btn {
+  margin-top: 35px;
+}
+.btn-space {
+  padding: 20px 40px;
+}
+.container-bottom h2 {
+  font-size: 30px;
+}
+.container-bottom h3 {
+  margin-bottom: 50px;
+  font-size: 100%;
+}
+.border-left {
+  border-left: 1px solid rgb(255, 255, 255);
+  width: 20%;
+  margin: 0 auto;
+}
+.container-footer {
+  background-color: #112e3e;
+  color: white;
+}
+.container-padding {
+  padding-top: 40px;
+}
+.row-center {
+  justify-content: center;
+  align-items: center;
+}
+.end-footer {
+  margin-top: 25px;
+}
+@media (max-width : 800px){
+  .border-left{
+      border: none;
+      width: 100%;
   }
 }
-
 @media (max-width: 576px) {
   .navbar-margin {
     margin: 0;
@@ -46,116 +129,11 @@
     width: 100%;
     margin: 0 auto;
   }
-}
-
-#myimg {
-  margin-left: 10%;
-  margin-top: 2%;
-  margin-bottom: 20px;
-}
-
-@media (min-width: 992px) {
   .navbar-expand-lg .navbar-nav .nav-link {
     padding-right: 30px;
     padding-left: 30px;
   }
-}
-.carousel-item p {
-  position: absolute;
-  top: 35%;
-  left: 10%;
-  text-transform: uppercase;
-  font-family: "Lato";
-  font-size: 37px;
-  font-weight: 500;
-  letter-spacing: 4px;
-  color: white;
-}
-.carousel-item {
-  position: relative;
-}
-
-.gold {
-  color: gold;
-}
-
-.container {
-  text-align: center;
-  margin-top: 30px;
-}
-.container-margin {
-  margin-top: 70px;
-}
-.container h1,
-.container h2 {
-  text-transform: uppercase;
-}
-.container h2 {
-  font-size: 25px;
-}
-
-.card {
-  border: none;
-}
-
-.card img {
-  width: 30%;
-  margin: 0 auto;
-}
-
-.card-body h3 {
-  text-transform: uppercase;
-  font-size: 100%;
-}
-
-.col img {
-  width: 100%;
-}
-
-.col h4,
-.col h5 {
-  font-size: 100%;
-}
-.margin-btn {
-  margin-top: 35px;
-}
-
-.btn-space {
-  padding: 20px 40px;
-}
-.container-bottom h2 {
-  font-size: 30px;
-}
-.container-bottom h3 {
-  margin-bottom: 50px;
-  font-size: 100%;
-}
-.border-left {
-  border-left: 1px solid rgb(255, 255, 255);
-  width: 20%;
-  margin: 0 auto;
-}
-
-@media (max-width : 800px){
-    .border-left{
-        border: none;
-        width: 100%;
-    }
-}
-.container-footer {
-  background-color: #112e3e;
-  color: white;
-}
-
-.container-padding {
-  padding-top: 40px;
-}
-
-.row-center {
-  justify-content: center;
-  align-items: center;
-}
-
-.end-footer {
-  margin-top: 25px;
+  .navbar-margin {
+    margin: 100px;
+  }
 }
